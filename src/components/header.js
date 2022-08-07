@@ -1,5 +1,6 @@
 import iceCreamImage from "../assets/img/scoop_fifty_fifty_ice_cream_and_graffiti.jpg";
 import { ReactComponent as ReactLogo } from "../assets/img/ice-cream-solid.svg";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const backgroundImageStyle = {
@@ -10,7 +11,7 @@ export default function Header() {
 
   return (
     // Header Elements
-    <div id="App" className="text-white w-screen">
+    <div id="App" className="text-white w-auto">
       <div id="header_img" className="text-white" style={backgroundImageStyle}>
         <div
           id="header_content"
@@ -21,7 +22,9 @@ export default function Header() {
             className=" max-w-xl grid grid-cols-1 gap-8"
           >
             <div id="logo" className="w-20">
-              <ReactLogo className="fill-teal-500 hover:fill-cyan-700" />
+              <Link to="/">
+                <ReactLogo className="fill-teal-500 hover:fill-cyan-700" />
+              </Link>
             </div>
             <h1 id="header_bold" className="text-6xl font-bold pt-11">
               Scoop50Fifty
