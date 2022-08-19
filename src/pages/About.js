@@ -1,13 +1,9 @@
 import JoshChelsea from "../assets/img/josh_n_chelsea.jpg";
 import GaryJocelyn from "../assets/img/gary_n_jocelyn.jpg";
-import Header from "../components/header";
-import Footer from "../components/footer";
 
 export default function About() {
   return (
     <>
-      <Header />
-
       <div
         id="about_content"
         className="place-content-evenly grid grid-cols-2 gap-4 justify-self-center pt-8 bg-gradient-to-r from-black to-teal-500"
@@ -94,7 +90,6 @@ export default function About() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

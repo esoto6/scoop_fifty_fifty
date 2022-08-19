@@ -1,11 +1,7 @@
-import Header from "../components/header";
-import Footer from "../components/footer";
-
 export default function Home() {
   return (
     <>
       <div className="flex flex-col justify-between h-screen">
-        <Header />
         <div
           id="body_container"
           className="p-8 grid gap-6 xl:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 text-slate-600 content-evenly"
@@ -35,7 +31,6 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <Footer />
       </div>
     </>
   );
