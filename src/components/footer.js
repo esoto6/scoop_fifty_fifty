@@ -2,12 +2,12 @@ import logoPNG from "../assets/img/scoop_logo.png";
 
 export default function footer() {
   return (
-    <footer class="position-relative border-gray-200 w-auto">
+    <footer className="position-relative border-gray-200 w-auto">
       <div
         id="footer_container"
         className="position-relative py-4 bg-gradient-to-r from-black to-teal-500 my-0"
       >
-        <div id="footer_content_cols" className="grid grid-cols-2 gap-4">
+        <div id="footer_content_cols" className="grid md:grid-cols-2 gap-4">
           <div id="footer_content" className="justify-center flex items-center">
             <img
               src={logoPNG}
@@ -21,7 +21,7 @@ export default function footer() {
           >
             <div className="mx-6 py-10 text-center md:text-left">
               <div className="justify-center items-center">
-                <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-items-start">
+                <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-items-start text-white">
                   Contact Us
                 </h6>
                 <div id="social_media" className="justify-center items-center">
@@ -32,7 +32,7 @@ export default function footer() {
                     hover:text-red-700"
                     >
                       <svg
-                        class="w-6 h-6 text-blue-600 fill-current"
+                        className="w-6 h-6 text-blue-600 fill-current"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
                       >
@@ -62,7 +62,7 @@ export default function footer() {
                     </a>
                   </div>
                 </div>
-                <p className="flex items-center  md:justify-items-start mb-4">
+                <p className="flex items-center  md:justify-items-start mb-4 text-white  hover:text-black">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -82,7 +82,7 @@ export default function footer() {
                     205B S Cross Creek Dr Summerville, SC 29483
                   </a>
                 </p>
-                <p className="flex items-center  md:justify-items-start mb-4">
+                <p className="flex items-center  md:justify-items-start mb-4 text-white hover:text-black">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -102,7 +102,7 @@ export default function footer() {
                     owner@scoopfiftyfiftyicecream.com
                   </a>
                 </p>
-                <p className="flex items-center  md:justify-items-start mb-4">
+                <p className="flex items-center  md:justify-items-start mb-4 text-white  hover:text-black">
                   <svg
                     aria-hidden="true"
                     focusable="false"
@@ -124,7 +124,7 @@ export default function footer() {
             </div>
           </div>
         </div>
-        <hr class="border-1 drop-shadow-xl border-teal-500" />
+        <hr className="border-1 drop-shadow-xl border-teal-500" />
         <div id="copyright" className="text-center m-0 pt-2 text-white">
           <span>© 2022 Copyright: </span>
           scoop50fifty

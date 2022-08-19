@@ -10,9 +10,9 @@ export default function About() {
 
       <div
         id="about_content"
-        className="grid grid-cols-2 gap-4 justify-self-center pt-8 bg-gradient-to-r from-black to-teal-500"
+        className="place-content-evenly grid grid-cols-2 gap-4 justify-self-center pt-8 bg-gradient-to-r from-black to-teal-500"
       >
-        <div id="photo_1" className="w-full px-2 justify-items-center">
+        <div id="photo_1" className="w-full px-2 justify-items-right">
           <img
             src={JoshChelsea}
             alt="Mr and Mrs Pitts"
@@ -25,7 +25,7 @@ export default function About() {
           </h3>
         </div>
 
-        <div id="photo_2" className="w-full px-2">
+        <div id="photo_2" className="w-full px-2 ">
           <img
             src={GaryJocelyn}
             alt="Mr and Mrs Campbell"

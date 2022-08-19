@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 export default function Home() {
   return (
     <>
-      <div class="flex flex-col justify-between h-screen">
+      <div className="flex flex-col justify-between h-screen">
         <Header />
         <div
           id="body_container"
