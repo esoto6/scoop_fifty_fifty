@@ -31,6 +31,11 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <div>Hello 1</div>
+        <div className="bg-sign_one bg-contain"></div>
+        <div>Hello 2</div>
+        <div>Hello 3</div>
+        <div>Hello 4</div>
       </div>
     </>
   );
